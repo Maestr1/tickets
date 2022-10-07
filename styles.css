@@ -1,0 +1,44 @@
+.page {
+  margin:0 auto;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1200px;
+  font-family: 'roboto', sans-serif;
+}
+
+.container {
+  padding: 0 50px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__title {
+  margin: 0;
+}
+
+.header__nav-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.header__nav-item {
+  margin-right: 15px;
+  list-style: none;
+}
+
+.header__nav-item:last-of-type {
+  margin-right: 0;
+}
+
+.header__nav-link {
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+}
